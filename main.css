@@ -86,7 +86,7 @@ h6 {
 
 .bannerimage img {
   width: 100%;
-  height: 24rem;
+  height: 20rem;
 }
 
 .hello .text {
@@ -104,6 +104,59 @@ h6 {
   color: white;
   text-align: center;
   font-size: 0.8rem;
+}
+
+.divflowers img {
+  max-width: 49%;
+  float: left;
+  margin: 2px;
+}
+
+.divpeople img {
+  max-width: 49%;
+  float: left;
+  margin: 2px;
+}
+
+.divoutdoors img {
+  max-width: 100%;
+  float: left;
+  margin: 2px;
+}
+
+.flowers {
+  background: pink;
+  margin: 0;
+  padding: 0.1rem;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.people {
+  background: #5bd85b;
+  margin: 0;
+  padding: 0.1rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.outdoors {
+  background: #4251d8;
+  margin: 0;
+  padding: 0.1rem;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer {
+  background: grey;
+  margin: 0;
+  padding: 1px;
+  color: white;
+  text-align: center;
+  font-size: 10px;
 }
 
 @media screen and (min-width: 80rem) {
