@@ -89,12 +89,12 @@ h6 {
 
 .bannerimage img {
   width: 100%;
-  height: 20rem;
+  height: 18rem;
 }
 
 .hello .text {
   color: rgb(45, 49, 238);
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   line-height: 80px;
   z-index: 5;
@@ -113,19 +113,19 @@ h6 {
 .divflowers img {
   max-width: 49%;
   float: left;
-  margin: 2px;
+  margin: 1px;
 }
 
 .divpeople img {
   max-width: 49%;
   float: left;
-  margin: 2px;
+  margin: 1px;
 }
 
 .divoutdoors img {
   max-width: 100%;
   float: left;
-  margin: 2px;
+  margin: 1px;
 }
 
 .flowers {
@@ -155,10 +155,11 @@ h6 {
 }
 
 .footer {
-  background: grey;
+  background: lightgrey;
   margin: 0;
   padding: 1px;
   color: white;
+  font-weight: bold;
   text-align: center;
   font-size: 10px;
 }
