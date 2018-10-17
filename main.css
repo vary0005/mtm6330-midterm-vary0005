@@ -160,6 +160,129 @@ h6 {
   font-size: 10px;
 }
 
+.hi h1 {
+  color: #2d31ee;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 30px;
+  z-index: 5;
+}
+
+.aboutbanner img {
+  width: 100%;
+  height: 18rem;
+}
+
+.aboutme .txt {
+  color: black;
+  z-index: 5;
+  position: absolute;
+  top: 9rem;
+  left: 6rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.aboutme .txttwo {
+  color: black;
+  z-index: 5;
+  position: absolute;
+  top: 11rem;
+  left: 6rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.aboutme .textthree {
+  color: black;
+  z-index: 5;
+  position: absolute;
+  top: 13rem;
+  left: 6rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.box {
+  background-color: white;
+  height: 8rem;
+  width: 15rem;
+  z-index: 5;
+  position: absolute;
+  top: 8rem;
+  left: 5rem;
+  opacity: 0.7;
+  border-radius: 25px;
+}
+
+.me img {
+  width: 50%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: solid black 1px;
+  padding: 2px;
+}
+
+.listone {
+  z-index: 5;
+  position: absolute;
+  top: 52rem;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  margin: -40px 5px 75px 5px;
+}
+
+.divlisttwo {
+  z-index: 5;
+  position: absolute;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0px 5px 75px 200px;
+}
+
+.hire {
+  background: lightblue;
+  padding: 0.1rem;
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 250px 0px 15px 0px;
+}
+
+.footertwo {
+  background: lightgrey;
+  margin: 0;
+  padding: 1px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 10px;
+}
+
+.divpeopletwo img {
+  max-width: 49%;
+  float: left;
+  margin: 1px;
+}
+
+.divoutdoorss img {
+  max-width: 49%;
+  float: left;
+  margin: 1px;
+}
+
+.peoplee {
+  text-align: center;
+  background: #5bd85b;
+  margin: 0;
+  padding: 0.1rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
 @media screen and (min-width: 80rem) {
   html {
     box-sizing: border-box;
@@ -451,21 +574,6 @@ h6 {
     top: 100rem;
     left: 90rem;
     opacity: 0.4;
-  }
-
-  .footertwo {
-    background-color: black;
-    height: 4rem;
-    width: 100%;
-    z-index: 5;
-    position: absolute;
-    top: 116rem;
-  }
-
-  .footertwo .txt {
-    font-size: 2rem;
-    color: white;
-    right: 55rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
