@@ -110,7 +110,7 @@ h6 {
   padding: 0.2rem;
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .divflowers img {
@@ -500,6 +500,15 @@ h6 {
     top: 38rem;
     left: 56rem;
     font-size: 5rem;
+  }
+
+  .section-head {
+    background: #666;
+    margin: 0;
+    padding: 0.2rem;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
   }
 
   .grey {
