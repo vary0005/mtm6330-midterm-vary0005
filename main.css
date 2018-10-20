@@ -23,7 +23,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgba(0, 0, 0, 0.89);
+  color: white;
+  color: black;
 }
 
 /* Add styles here */
@@ -57,6 +58,7 @@ h6 {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  text-decoration: none;
 }
 
 .navbar .nav .menu-item {
@@ -85,8 +87,9 @@ h6 {
 }
 
 .bannerimage img {
+  display: block;
   width: 100%;
-  height: 18rem;
+  height: auto;
 }
 
 .hello .text {
@@ -169,8 +172,9 @@ h6 {
 }
 
 .aboutbanner img {
+  display: block;
   width: 100%;
-  height: 18rem;
+  height: auto;
 }
 
 .aboutme .txt {
@@ -181,6 +185,7 @@ h6 {
   left: 6rem;
   font-size: 1rem;
   font-weight: 500;
+  margin: 0 2px 0 0;
 }
 
 .aboutme .txttwo {
@@ -283,6 +288,104 @@ h6 {
   font-size: 0.8rem;
 }
 
+.overlay-image {
+  position: relative;
+  width: 100%;
+}
+
+.overlay-image .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-image .text {
+  color: white;
+  font-size: 30px;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-weight: bold;
+}
+
+.white img {
+  width: 100%;
+  display: block;
+}
+
+.whitet img {
+  width: 100%;
+  display: block;
+}
+
+.phone {
+  background: white;
+  margin: 0;
+  padding: 0.1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  margin: 4px;
+}
+
+.location {
+  background: white;
+  margin: 0;
+  padding: 0.1rem;
+  text-decoration: white;
+  text-align: center;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  margin: 4px;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  opacity: 0.8;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=email] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: black;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+  background-color: white;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 87%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
 @media screen and (min-width: 80rem) {
   html {
     box-sizing: border-box;
@@ -290,8 +393,8 @@ h6 {
   }
 
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     box-sizing: inherit;
   }
 
@@ -304,11 +407,11 @@ h6 {
   }
 
   h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: rgba(0, 0, 0, 0.89);
   }
 
@@ -576,6 +679,7 @@ h6 {
     opacity: 0.4;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
